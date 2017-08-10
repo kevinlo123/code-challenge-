@@ -1,0 +1,481 @@
+body {
+margin: 0px;
+padding: 0px;
+}
+
+#main-Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  background: lightblue;
+  font-family: 'Open Sans', sans-serif;
+  padding: 3% 0;
+}
+
+header,form,button {
+  width: 82%;
+  background: white;
+  padding: 0 3%;
+  margin-left: 7%;
+  left: 2%
+}
+
+/******************************
+header styles only*************/
+header {
+  height: 190px;
+  width: 82%;
+  margin-left: 7%;
+}
+
+.signUpNow-Text-One {
+  color: #0084b4;
+  font-size: 2.5em;
+}
+
+.signUpNow-Text-Two {
+  font-size: 1em;
+  font-weight: lighter;
+  position: relative;
+  bottom: 5%
+}
+
+.blueLine-Text {
+  border-top: 1px solid lightblue;
+  width: 105%;
+  position: relative;
+  right: 3%;
+}
+
+/******************************
+ website address fieldset styles only***/
+
+ .webAddress-fieldset {
+   height: 130px;
+   background: #f2f2f2;
+   border: none;
+   border-radius: 5px;
+ }
+
+ .pickWebsite-Text-One {
+   position: relative;
+   bottom: 28%;
+   right: 3%;
+   font-size: 1.6em;
+   color: #0084b4;
+ }
+
+.numberOne {
+  position: relative;
+  right: 20%;
+  top: 37px;
+  color: #0084b4;
+  background-color: #f3f3ff;
+  border-radius: 50%;
+  width: 13%;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+
+.webAddress-Div {
+  position: relative;
+  bottom: 18%;
+}
+
+.webAddress-Div-Two {
+  color: black;
+  font-size: 1.1em;
+  position: relative;
+  left: 3%;
+}
+
+.urlForm {
+  height: 37px;
+  border: 1px solid #0084b4;
+  border-radius: 3px;
+  width: 92%;
+  position: relative;
+  left: 3%;
+  font-size: 1em;
+}
+
+.input-Add-On {
+  background: #f2f2f2;
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  width: 35%;
+  height: 29px;
+  padding-top: 2%;
+  font-size: .9em
+}
+
+/***************************
+create account styles only*/
+
+
+.createAccount-fieldset {
+  height: 370px;
+  margin-top: 12%;
+  background: #f2f2f2;
+  border: none;
+  padding-left: 5%;
+  border-radius: 5px;
+}
+
+.createAccount-Text-One {
+  position: relative;
+  bottom: 11%;
+  right: 7%;
+  font-size: 1.6em;
+  color: #0084b4;
+}
+
+.numberTwo {
+  position: relative;
+  right: 22%;
+  top: 35px;
+  color: #0084b4;
+  background-color: #f3f3ff;
+  border-radius: 50%;
+  width: 16%;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  height: 38px;
+}
+
+.createAccount-Div {
+  position: relative;
+  bottom: 11%
+}
+
+.createAccount-Div-Two {
+  font-size: 1.1em;
+  padding-top: 3%;
+  padding-bottom: 2%
+}
+
+.nameForm {
+  height: 37px;
+  width: 95%;
+  border: 1px solid #0084b4;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.createAccount-Div-Three {
+  position: relative;
+  bottom: 4%;
+}
+
+.createAccount-Div-Four {
+  font-size: 1.1em;
+  padding-bottom: 2%
+}
+
+.passWord-Div {
+  position: relative;
+  top: 5%
+}
+/***************************
+payment info fieldset styles*/
+
+.paymentInfo-fieldset {
+  height: 260px;
+  margin-top: 9%;
+  background-color: #f2f2f2;
+  border: none;
+  padding-left: 5%;
+  border-radius: 5px
+}
+
+.paymentInfo-Text-One {
+  position: relative;
+  bottom: 11%;
+  right: 6%;
+  font-size: 1.6em;
+  color: #0084b4;
+  padding-bottom: 4%;
+}
+
+.numberThree {
+  position: relative;
+  right: 18%;
+  top: 35px;
+  color: #0084b4;
+  background-color: #f3f3ff;
+  border-radius: 50%;
+  width: 12%;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  height: 36px;
+}
+
+.cardNumber-Div {
+  position: relative;
+  bottom: 10%;
+}
+
+.cardNumber-Div-Two {
+  font-size: 1.1em;
+  padding-bottom: 2%;
+}
+
+.creditForm {
+  width: 50%;
+  height: 37px;
+  border: 1px solid #0084b4;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.creditCards-div{
+  position: absolute;
+  left: 52%;
+  top: 53%;
+}
+
+.creditCards {
+  height: 27px;
+  width: 22%
+}
+
+.security-Div {
+  position: relative;
+  bottom: 12px;
+}
+
+.securityCode {
+  font-size: 1.1em;
+  padding-bottom: 1%;
+}
+
+.creditForm-Security {
+  height: 37px;
+  width: 32%;
+  border: 1px solid #0084b4;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.expirationDate-Div {
+  position: relative;
+  left: 43%;
+  bottom: 31.5%;
+}
+
+.expiration-Text {
+  font-size: 1.1em;
+  padding-bottom: 1%;
+}
+
+.creditForm-Date {
+  height: 41px;
+  width: 36%;
+  margin-right: 3%;
+  border: 1px solid #0084b4;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.creditForm-Year {
+  height: 41px;
+  border: 1px solid #0084b4;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.submit {
+  position: relative;
+  top: 33px;
+  left: -27px;
+  height: 48px;
+  margin-bottom: 12%;
+  width: 99%;
+  border: none;
+  background: #3b5998;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 3px
+}
+/******************************
+media queries*****************/
+
+@media only screen and (min-width : 634px){
+  .input-Add-On {
+      background: #f2f2f2;
+      display: block;
+      position: absolute;
+      top: 40%;
+      left: 60%;
+      width: 35%;
+      height: 28px;
+      padding-top: 2%;
+      font-size: .9em;
+  }
+}
+
+@media only screen and (min-width : 699px){
+  .input-Add-On {
+      display: none;
+  }
+
+  header {
+      height: 190px;
+      width: 74%;
+      margin-left: 10%;
+  }
+
+    header, form, button {
+      width: 74%;
+      background: white;
+      padding: 0 3%;
+      margin-left: 10%;
+      left: 2%;
+  }
+
+  .submit {
+    position: relative;
+    top: 33px;
+    left: -59px;
+    height: 48px;
+    margin-bottom: 12%;
+    width: 99%;
+    border: none;
+    background: #3b5998;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 3px;
+}
+
+  header, form, button {
+      width: 74%;
+      background: white;
+      padding: 0 3%;
+      margin-left: 10%;
+      left: 2%;
+  }
+}
+
+@media only screen and (min-width : 830px){
+  .input-Add-On {
+      display: none;
+  }
+
+}
+
+@media only screen and (min-width : 900px){
+
+    header, form, button {
+      width: 60%;
+      background: white;
+      padding: 0 3%;
+      margin-left: 15%;
+      left: 2%
+    }
+
+    header {
+        height: 190px;
+        width: 60%;
+        margin-left: 15%;
+    }
+
+
+  .input-Add-On {
+      display: none;
+  }
+
+  .submit {
+      position: relative;
+      top: 33px;
+      left: -66px;
+      height: 48px;
+      margin-bottom: 12%;
+      width: 99%;
+      border: none;
+      background: #3b5998;
+      color: white;
+      font-size: 1.5em;
+      border-radius: 3px;
+  }
+}
+
+@media only screen and (min-width : 1055px){
+    header {
+      height: 190px;
+      width: 51%;
+      margin-left: 20%;
+  }
+
+    header, form, button {
+      width: 51%;
+      background: white;
+      padding: 0 3%;
+      margin-left: 20%;
+      left: 2%;
+  }
+
+    .submit {
+      position: relative;
+      top: 33px;
+      left: -100px;
+      height: 48px;
+      margin-bottom: 12%;
+      width: 99%;
+      border: none;
+      background: #3b5998;
+      color: white;
+      font-size: 1.5em;
+      border-radius: 3px;
+  }
+}
+
+@media only screen and (min-width : 1130px){
+    header, form, button {
+      width: 44%;
+      background: white;
+      padding: 0 3%;
+      margin-left: 15%;
+      left: 2%;
+  }
+
+    header {
+      height: 190px;
+      width: 44%;
+      margin-left: 15%;
+  }
+}
+
+@media only screen and (min-width : 1130px){
+  header, form, button {
+    width: 37%;
+    background: white;
+    padding: 0 3%;
+    margin-left: 28%;
+    left: 2%;
+  }
+
+    header {
+      height: 190px;
+      width: 37%;
+      margin-left: 28%;
+  }
+
+    .submit {
+      position: relative;
+      top: 33px;
+      left: -137px;
+      height: 48px;
+      margin-bottom: 12%;
+      width: 99%;
+      border: none;
+      background: #3b5998;
+      color: white;
+      font-size: 1.5em;
+      border-radius: 3px;
+  }
+}

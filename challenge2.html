@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form challenge</title>
+  <link rel="stylesheet" href="challenge2.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script src="modernizr.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="main-Wrapper">
+    <header>
+      <h1 class="signUpNow-Text-One">Sign Up Now</h1>
+      <h2 class="signUpNow-Text-Two">Pick your new website, free forever.</h2>
+      <div class="blueLine-Text"></div>
+    </header>
+    <form>
+      <fieldset class="webAddress-fieldset">
+        <legend class="pickWebsite-Text-One"><span class="numberOne">1</span>Pick a website address.</legend>
+        <div class="webAddress-Div">
+          <label for="websiteAddress">
+            <div class="webAddress-Div-Two">
+              Website address:
+            </div>
+            <input class="urlForm" type="url" name="url" placeholder="Address" required>
+            <span class="input-Add-On">.free-websites.com</span>
+          </label>
+        </div>
+      </fieldset>
+      <fieldset class="createAccount-fieldset">
+        <legend class="createAccount-Text-One"><span class="numberTwo">2</span>Create an account.</legend>
+        <div class="createAccount-Div">
+          <label for="fullName">
+            <div class="createAccount-Div-Two">
+              Full name:
+            </div>
+            <input class="nameForm" type="text" name="fullname" placeholder="Full Name" required>
+          </label>
+        </div>
+        <div class="createAccount-Div-Three">
+          <label for="emailAddress">
+            <div class="createAccount-Div-Four">
+              Email address:
+            </div>
+            <input class="nameForm" type="email" name="email" placeholder="Email" required>
+          </label>
+        </div>
+        <div class="passWord-Div">
+          <label for="password">
+            <div class="createAccount-Div-Four">
+              Password:
+            </div>
+            <input class="nameForm" type="password" id="password" placeholder="Password" required>
+            <div>
+              <input type="checkbox" value="1" name="reveal" id="reveal" onchange="reveal_pass(this); " >Show Password
+            </div>
+          </label>
+        </div>
+      </fieldset>
+      <fieldset class="paymentInfo-fieldset">
+        <legend class="paymentInfo-Text-One"><span class="numberThree">3</span>Enter your payment info.</legend>
+        <div class="cardNumber-Div">
+          <label for="cardNumber">
+            <div class="cardNumber-Div-Two" >
+              Credit card number:
+            </div>
+            <input class="creditForm" type="text" placeholder="0000 0000 0000 0000" required>
+          </label>
+          <div class="creditCards-div">
+            <img class="creditCards" src="../code challenge 2ph/pictures/visa.png" alt="visa" name="visa">
+            <img class="creditCards" src="../code challenge 2ph/pictures/mastercard.png" alt="masterCard" name="masterCard">
+            <img class="creditCards" src="../code challenge 2ph/pictures/discover.png" alt="discover" name="discover">
+            <img class="creditCards" src="../code challenge 2ph/pictures/express.png" alt="americanExpress" name="americanExpress">
+          </div>
+        </div>
+        <div class="security-Div">
+          <label for="securityCode">
+            <div class="securityCode">
+              Security code:
+            </div>
+            <input class="creditForm-Security" type="text" placeholder="123" required>
+        </div>
+        <div class="expirationDate-Div">
+          <div class="expiration-Text">
+            Expiration date:
+          </div>
+          <select class="creditForm-Date" type="month" required>
+            <option value>Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <select class="creditForm-Year" type="year" required>
+            <option value>Year</option>
+            <option value="1">2017</option>
+            <option value="2">2018</option>
+            <option value="3">2019</option>
+            <option value="4">2020</option>
+            <option value="5">2021</option>
+            <option value="6">2022</option>
+            <option value="7">2023</option>
+            <option value="8">2024</option>
+            <option value="9">2025</option>
+            <option value="10">2026</option>
+            <option value="11">2027</option>
+            <option value="12">2028</option>
+            <option value="13">2029</option>
+            <option value="14">2030</option>
+          </select>
+        </label>
+      </div>
+    </fieldset>
+    <button class="submit">Create your website</button>
+    </form>
+    <script type="text/javascript" src="challenge.js"></script>
+  </div>
+</body>
+</html>
